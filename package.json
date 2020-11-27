@@ -1,0 +1,45 @@
+{
+  "name": "luciascript",
+  "version": "0.1.0",
+  "description": "Hastscript-like utility to create HTML strings",
+  "main": "dist/index.cjs.min.js",
+  "repository": "https://github.com/lucialand/luciascript.git",
+  "author": "shadowtime2000 <66655515+shadowtime2000@users.noreply.github.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^16.0.0",
+    "@rollup/plugin-node-resolve": "^10.0.0",
+    "jest": "^26.6.3",
+    "prettier": "^2.2.0",
+    "rollup": "^2.33.3",
+    "rollup-plugin-terser": "^7.0.2",
+    "rollup-plugin-typescript2": "^0.29.0",
+    "ts-jest": "^26.4.4",
+    "typescript": "^4.1.2"
+  },
+  "jest": {
+    "transform": {
+      ".(ts)": "ts-jest"
+    }
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "format": "prettier --write .",
+    "build": "rollup -c",
+    "prepublishOnly": "rollup -c",
+    "test": "jest --coverage"
+  },
+  "sideEffects": false,
+  "module": "dist/index.es.min.js",
+  "types": "dist/types/index.d.ts",
+  "typings": "dist/types/index.d.ts",
+  "browser": "dist/index.umd.min.js",
+  "exports": {
+    "node": "./dist/index.cjs.min.js",
+    "import": "./dist/index.es.min.js",
+    "require": "./dist/index.cjs.min.js"
+  }
+}
