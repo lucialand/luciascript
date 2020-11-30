@@ -5,6 +5,7 @@
 [![Build Status](https://img.shields.io/travis/lucialand/luciascript)](https://travis-ci.org/lucialand/luciascript)
 [![Coverage Status](https://img.shields.io/coveralls/github/lucialand/luciascript)](https://coveralls.io/github/lucialand/luciascript?branch=master)
 [![NPM version](https://img.shields.io/npm/v/luciascript)](https://npmjs.org/package/luciascript)
+[![Minzipped size](https://badgen.net/bundlephobia/minzip/luciascript)](https://bundlephobia.com/result?p=luciascript@0.1.0)
 
 ## Installation
 
