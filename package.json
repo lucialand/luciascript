@@ -1,6 +1,6 @@
 {
   "name": "luciascript",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Hastscript-like utility to create HTML strings",
   "main": "dist/index.min.cjs",
   "repository": "https://github.com/lucialand/luciascript.git",
