@@ -2,7 +2,7 @@
   "name": "luciascript",
   "version": "0.1.0",
   "description": "Hastscript-like utility to create HTML strings",
-  "main": "dist/index.cjs.min.js",
+  "main": "dist/index.min.cjs",
   "repository": "https://github.com/lucialand/luciascript.git",
   "author": "shadowtime2000 <66655515+shadowtime2000@users.noreply.github.com>",
   "license": "MIT",
@@ -43,8 +43,8 @@
   "typings": "dist/types/index.d.ts",
   "browser": "dist/index.umd.min.js",
   "exports": {
-    "node": "./dist/index.cjs.min.js",
+    "node": "./dist/index.min.cjs",
     "import": "./dist/index.es.min.js",
-    "require": "./dist/index.cjs.min.js"
+    "require": "./dist/index.min.cjs"
   }
 }
