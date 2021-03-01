@@ -11,7 +11,9 @@
 
 ```
 $ npm install luciascript
-# Or with yarn
+
+# or with yarn
+
 $ yarn add luciascript
 ```
 
@@ -40,9 +42,19 @@ l("div", { className: "foo", id: "bar", style: "text-align: center;" }, [
     l("button", {}, "Click Me!")
 ])
 ```
+or, with classes
+```js
+
+const luciaScript = new L(
+   "div", { className: "foo", id: "bar", style: "text-align: center;" }, 
+)
+```
+
+
 ```html
 <div class="foo" id="bar" style="text-align: center;">
     <p>Hello World</p>
     <button>Click Me!</button>
 </div>
 ```
+
